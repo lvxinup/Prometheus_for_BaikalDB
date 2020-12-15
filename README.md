@@ -89,7 +89,7 @@ $ nohup ./prometheus --config.file=prometheus.yml &
 
 Prometheus启动之后，访问 [http://localhost:9090](http://localhost:9090) 可以Prometheus网页，在 http://xx.xx.xx.xx:9090/metrics 中可以看到刮取的监控指标。
 
-![image-20201210114314622](https://github.com/lvxinup/Prometheus_for_BaikalDB/image-20201210114314622.png)
+![image-20201210114314622](https://github.com/lvxinup/Prometheus_for_BaikalDB/blob/main/image-20201210114314622.png)
 
 ### 3. 安装并启动Grafana可视化监控指标
 
@@ -204,5 +204,5 @@ $ nohup ./alertmanager &
 
 Alertmanager启动之后，多次select即可触发报警。
 
-![image-20201210151400987](https://github.com/lvxinup/Prometheus_for_BaikalDB/image-20201210151400987.png)
+![image-20201210151400987](https://github.com/lvxinup/Prometheus_for_BaikalDB/blob/main/image-20201210151400987.png)
 
